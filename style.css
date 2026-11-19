@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: #0c0f23; color: #fff; font-family: Arial, sans-serif; }
+body { overflow: hidden; }
+canvas { display: block; position: fixed; inset: 0; z-index: 0; }
+.intro { position: relative; z-index: 1; pointer-events: none; padding: 26px 30px; }
+.intro span { color: #9da9ff; font-size: .72rem; letter-spacing: .16em; font-weight: bold; }
+h1 { margin: 8px 0; font-size: clamp(1.8rem, 5vw, 3rem); }
+p { margin: 0; color: #c6c9df; max-width: 520px; }
+@media (max-width: 600px) { .intro { padding: 20px; } }
